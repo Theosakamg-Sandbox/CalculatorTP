@@ -13,6 +13,7 @@ namespace Console
         public int Add(int val1, int val2)
         {
             // Any update
+            // New content
             return val1 + val2;
         }
 
