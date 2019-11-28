@@ -2,6 +2,7 @@
 
 namespace Console
 {
+    // GAILLARD Mickael
     public class CalculatorEngine
     {
         /// <summary>
