@@ -12,6 +12,7 @@ namespace Console
         /// <returns>the addition value.</returns>
         public int Add(int val1, int val2)
         {
+            // Any update
             return val1 + val2;
         }
 
