@@ -62,19 +62,19 @@ namespace Console
             return res;
         }
 
-        public int Square(int val)
+        public virtual int Square(int val)
         {
             double result = Math.Pow(val, 2);
             return Convert.ToInt32(result);
         }
 
-        public int SquareRoot(int val)
+        public virtual int SquareRoot(int val)
         {
             double result = Math.Sqrt(val);
             return Convert.ToInt32(result);
         }
 
-        public float Percent(int val)
+        public virtual float Percent(int val)
         {
             return (float)val / 100f;
         }
