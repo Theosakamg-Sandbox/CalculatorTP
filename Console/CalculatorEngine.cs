@@ -2,6 +2,7 @@
 
 namespace Console
 {
+    // GAILLARD Mickael
     public class CalculatorEngine
     {
         /// <summary>
@@ -12,6 +13,8 @@ namespace Console
         /// <returns>the addition value.</returns>
         public virtual int Add(int val1, int val2)
         {
+            // Any update
+            // New content
             return val1 + val2;
         }
 
