@@ -11,7 +11,7 @@ namespace Console
         /// <param name="val1">1st value.</param>
         /// <param name="val2">2nd value.</param>
         /// <returns>the addition value.</returns>
-        public virtual int Add(int val1, int val2)
+        public virtual int Addition(int val1, int val2)
         {
             // Any update
             // New content
@@ -24,7 +24,7 @@ namespace Console
         /// <param name="val1"></param>
         /// <param name="val2"></param>
         /// <returns></returns>
-        public virtual int Sub(int val1, int val2)
+        public virtual int Subtraction(int val1, int val2)
         {
             return val1 - val2;
         }
@@ -35,7 +35,7 @@ namespace Console
         /// <param name="val1"></param>
         /// <param name="val2"></param>
         /// <returns></returns>
-        public virtual int Mul(int val1, int val2)
+        public virtual int Multiplication(int val1, int val2)
         {
             return val1 * val2;
         }
@@ -46,7 +46,7 @@ namespace Console
         /// <param name="val1"></param>
         /// <param name="val2"></param>
         /// <returns></returns>
-        public virtual int Div(int val1, int val2)
+        public virtual int Division(int val1, int val2)
         {
             int res;
 
