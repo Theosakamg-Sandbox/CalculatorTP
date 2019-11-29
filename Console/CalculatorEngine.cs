@@ -30,7 +30,7 @@ namespace Console
         }
 
         /// <summary>
-        /// 
+        /// Function to Multiplication two value.
         /// </summary>
         /// <param name="val1"></param>
         /// <param name="val2"></param>
